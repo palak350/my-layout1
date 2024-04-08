@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+    background-color: blue;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    padding: 10px;
+
+}
+.mainContainer{
+    display: flex;
+    
+}
+
+.sidebar {
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    background-color: aliceblue;
+
+}
+.sidebar h1{
+    background-color: palevioletred;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.sidebar ul{
+    border:  2px solid gray;
+}
+
+.sidebar ul li {
+
+    text-align: center;
+padding-bottom: 25px;
+    color: black;
+    font-size: 20px;
+padding-top:  25px;}
+    
+
+
+    
+    
+
+
+.container {
+    width: 70%;
+    height: 100vh;
+    background-color: navy;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2em;
+    font-size: 30px;
+}
+.main2{
+    display: flex;
+
+    gap: 15px;
+}
+
+
+   
+
+    
+    
+    
+
+
+
+ .card{
+    
+    width: 25%;
+    height: 300px;
+    font-size: 25px;
+    color: white;
+    
+    
+
+}
+.card h1 {
+    padding-top: 20px;
+
+}
+.card1 h1  {
+    background-color: blue}
+
+.card2 h1{
+    background-color: orange;
+}
+
+
+.card3 h1{
+    background-color: red;
+    
+}
+.card4 h1{
+    background-color: violet;
+
+}.text{
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid gray;  
+}.text1 h3{
+    color: blue;
+
+    
+}
+.text2 h3{
+    color: orange;
+}
+.text3 h3{
+    color: red;
+}.text4 h4{
+    color: violet;
+}.text p{
+    border-bottom: 2px solid grey;
+}
